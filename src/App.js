@@ -1,22 +1,28 @@
-function App() {
+import { useCallback, useState } from 'react';
+import { AppContextProvider, appInitialState } from './context/AppContext';
+
+const App = () => {
+    const [appState, setAppState] = useState(appInitialState);
+
+    const changeAppState = useCallback((newState) => {
+        setAppState((oldState) => {
+            return {
+                ...oldState,
+                ...newState,
+            };
+        });
+    }, []);
+
     return (
-        <div className='App'>
-            <header className='App-header'>
-                <img src={logo} className='App-logo' alt='logo' />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className='App-link'
-                    href='https://reactjs.org'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                >
-                    Learn React
-                </a>
-            </header>
-        </div>
+        <AppContextProvider
+            value={{
+                appState,
+                changeAppState,
+            }}
+        >
+            <div className='application'></div>
+        </AppContextProvider>
     );
-}
+};
 
 export default App;

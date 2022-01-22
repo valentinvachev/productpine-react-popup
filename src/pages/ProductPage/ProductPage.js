@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import CartModal from './CartModal/CartModal';
 import CustomButton from './CustomButton/CustomButton';
 import './ProductPage.scss';
 
@@ -13,6 +14,9 @@ const ProductPage = () => {
                     className='custom-button'
                     onClick={() => setModalVisible(true)}
                 />
+                {isModalVisible && (
+                    <CartModal closeModal={() => setModalVisible(false)} />
+                )}
             </div>
         </div>
     );

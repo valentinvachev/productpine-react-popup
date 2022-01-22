@@ -1,0 +1,5 @@
+<svg class="icon icon--selector-minus "
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 2">
+    <path fill="#FFF" d="M1 0h8c.6 0 1 .4 1 1s-.4 1-1 1H1c-.6 0-1-.4-1-1s.4-1 1-1z"></path>
+    <path fill="#313131" d="M9 2H1c-.6 0-1-.4-1-1s.4-1 1-1h8c.6 0 1 .4 1 1s-.4 1-1 1zM1 .5V1 .5z"></path>
+</svg>

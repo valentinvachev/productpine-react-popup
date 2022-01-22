@@ -1,0 +1,13 @@
+.product-page {
+    width: 1200px;
+    min-height: 700px;
+    border: 2px solid black;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .product-page-button-add {
+        width: 400px;
+    }
+}

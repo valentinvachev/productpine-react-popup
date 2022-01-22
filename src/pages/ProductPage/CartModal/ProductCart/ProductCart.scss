@@ -8,14 +8,15 @@
     
 
     .product-cart-image-wrapper {
+        width: 20%;
         img {
             height: 100%;
-            width: 90px;
+            width: 100%;
         }
     }
 
     .product-cart-info-wrapper {
-        width: 400px;
+        width: 78%;
 
         h4 {
             margin-bottom: 10px;

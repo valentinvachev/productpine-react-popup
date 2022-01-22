@@ -24,7 +24,10 @@ const ProductPage = () => {
                             changeAppState({
                                 cart: {
                                     ...appState.cart,
-                                    items: [...initialItems],
+                                    items: initialItems.map((item) => ({
+                                        ...item,
+                                        quantity: 1,
+                                    })),
                                 },
                             });
                         }}

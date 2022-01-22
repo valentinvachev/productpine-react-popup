@@ -22,7 +22,7 @@ const App = () => {
             }}
         >
             <div className='application'>
-                <ProductPage />
+                <ProductPage/>
             </div>
         </AppContextProvider>
     );

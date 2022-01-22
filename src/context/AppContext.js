@@ -14,7 +14,7 @@ export const appInitialState = {
                 id: 1,
                 name: 'Ekster Senate Cardholder',
                 imageUrl:
-                    'https://m.media-amazon.com/images/I/61zi8gxOKbL._AC_SL1000_.jpg',
+                    'https://cdn.shopify.com/s/files/1/1451/0712/products/SEN-BLK_tracker_fe09a5eb-4b97-4e21-94c2-2e4e399a341d_960x.jpg?v=1586344132',
                 details: {
                     color: 'Black',
                     size: '200cm',
@@ -28,7 +28,7 @@ export const appInitialState = {
                 id: 2,
                 name: 'MOFT Universal Laptop Stand',
                 imageUrl:
-                    'https://cdn.shopify.com/s/files/1/1451/0712/products/SEN-BLK_tracker_fe09a5eb-4b97-4e21-94c2-2e4e399a341d_960x.jpg?v=1586344132',
+                    'https://m.media-amazon.com/images/I/61zi8gxOKbL._AC_SL1000_.jpg',
                 quantity: 1,
                 regularPrice: 29.99,
                 discountPrice: 29.99,
